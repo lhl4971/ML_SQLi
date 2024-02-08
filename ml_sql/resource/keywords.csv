@@ -1,0 +1,764 @@
+﻿Name,Introduced,Removed,5.7,8,8.1,8.2
+ACCESSIBLE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ACCOUNT,5.7.6,,Yes,Yes,Yes,Yes
+ACTION,,,Yes,Yes,Yes,Yes
+ACTIVE,8.0.14,,,Yes,Yes,Yes
+ADD,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ADMIN,,,,Yes,Yes,Yes
+AFTER,,,Yes,Yes,Yes,Yes
+AGAINST,,,Yes,Yes,Yes,Yes
+AGGREGATE,,,Yes,Yes,Yes,Yes
+ALGORITHM,,,Yes,Yes,Yes,Yes
+ALL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ALTER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ALWAYS,5.7.6,,Yes,Yes,Yes,Yes
+ANALYSE,,8.0.1,Yes,Yes,,
+ANALYZE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+AND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ANY,,,Yes,Yes,Yes,Yes
+ARRAY,8.0.17,,,Yes,Yes,Yes
+AS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ASC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ASCII,,,Yes,Yes,Yes,Yes
+ASENSITIVE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+AT,,,Yes,Yes,Yes,Yes
+ATTRIBUTE,8.0.21,,,Yes,Yes,Yes
+AUTHENTICATION,8.0.27,,,Yes,Yes,Yes
+AUTOEXTEND_SIZE,,,Yes,Yes,Yes,Yes
+AUTO_INCREMENT,,,Yes,Yes,Yes,Yes
+AVG,,,Yes,Yes,Yes,Yes
+AVG_ROW_LENGTH,,,Yes,Yes,Yes,Yes
+BACKUP,,,Yes,Yes,Yes,Yes
+BEFORE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BEGIN,,,Yes,Yes,Yes,Yes
+BETWEEN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BIGINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BINARY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BINLOG,,,Yes,Yes,Yes,Yes
+BIT,,,Yes,Yes,Yes,Yes
+BLOB,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BLOCK,,,Yes,Yes,Yes,Yes
+BOOL,,,Yes,Yes,Yes,Yes
+BOOLEAN,,,Yes,Yes,Yes,Yes
+BOTH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BTREE,,,Yes,Yes,Yes,Yes
+BUCKETS,8.0.2,,,Yes,Yes,Yes
+BULK,8.0.32,,,Yes,Yes,Yes
+BY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+BYTE,,,Yes,Yes,Yes,Yes
+CACHE,,,Yes,Yes,Yes,Yes
+CALL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CASCADE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CASCADED,,,Yes,Yes,Yes,Yes
+CASE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CATALOG_NAME,,,Yes,Yes,Yes,Yes
+CHAIN,,,Yes,Yes,Yes,Yes
+CHALLENGE_RESPONSE,8.0.27,,,Yes,Yes,Yes
+CHANGE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CHANGED,,,Yes,Yes,Yes,Yes
+CHANNEL,5.7.6,,Yes,Yes,Yes,Yes
+CHAR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CHARACTER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CHARSET,,,Yes,Yes,Yes,Yes
+CHECK,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CHECKSUM,,,Yes,Yes,Yes,Yes
+CIPHER,,,Yes,Yes,Yes,Yes
+CLASS_ORIGIN,,,Yes,Yes,Yes,Yes
+CLIENT,,,Yes,Yes,Yes,Yes
+CLONE,8.0.3,,,Yes,Yes,Yes
+CLOSE,,,Yes,Yes,Yes,Yes
+COALESCE,,,Yes,Yes,Yes,Yes
+CODE,,,Yes,Yes,Yes,Yes
+COLLATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+COLLATION,,,Yes,Yes,Yes,Yes
+COLUMN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+COLUMNS,,,Yes,Yes,Yes,Yes
+COLUMN_FORMAT,,,Yes,Yes,Yes,Yes
+COLUMN_NAME,,,Yes,Yes,Yes,Yes
+COMMENT,,,Yes,Yes,Yes,Yes
+COMMIT,,,Yes,Yes,Yes,Yes
+COMMITTED,,,Yes,Yes,Yes,Yes
+COMPACT,,,Yes,Yes,Yes,Yes
+COMPLETION,,,Yes,Yes,Yes,Yes
+COMPONENT,,,,Yes,Yes,Yes
+COMPRESSED,,,Yes,Yes,Yes,Yes
+COMPRESSION,5.7.8,,Yes,Yes,Yes,Yes
+CONCURRENT,,,Yes,Yes,Yes,Yes
+CONDITION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CONNECTION,,,Yes,Yes,Yes,Yes
+CONSISTENT,,,Yes,Yes,Yes,Yes
+CONSTRAINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CONSTRAINT_CATALOG,,,Yes,Yes,Yes,Yes
+CONSTRAINT_NAME,,,Yes,Yes,Yes,Yes
+CONSTRAINT_SCHEMA,,,Yes,Yes,Yes,Yes
+CONTAINS,,,Yes,Yes,Yes,Yes
+CONTEXT,,,Yes,Yes,Yes,Yes
+CONTINUE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CONVERT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CPU,,,Yes,Yes,Yes,Yes
+CREATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CROSS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CUBE,,,Yes,Yes (R),Yes (R),Yes (R)
+CUME_DIST,8.0.2,,,Yes (R),Yes (R),Yes (R)
+CURRENT,,,Yes,Yes,Yes,Yes
+CURRENT_DATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CURRENT_TIME,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CURRENT_TIMESTAMP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CURRENT_USER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CURSOR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+CURSOR_NAME,,,Yes,Yes,Yes,Yes
+DATA,,,Yes,Yes,Yes,Yes
+DATABASE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DATABASES,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DATAFILE,,,Yes,Yes,Yes,Yes
+DATE,,,Yes,Yes,Yes,Yes
+DATETIME,,,Yes,Yes,Yes,Yes
+DAY,,,Yes,Yes,Yes,Yes
+DAY_HOUR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DAY_MICROSECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DAY_MINUTE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DAY_SECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DEALLOCATE,,,Yes,Yes,Yes,Yes
+DEC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DECIMAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DECLARE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DEFAULT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DEFAULT_AUTH,,,Yes,Yes,Yes,Yes
+DEFINER,,,Yes,Yes,Yes,Yes
+DEFINITION,8.0.4,,,Yes,Yes,Yes
+DELAYED,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DELAY_KEY_WRITE,,,Yes,Yes,Yes,Yes
+DELETE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DENSE_RANK,8.0.2,,,Yes (R),Yes (R),Yes (R)
+DESC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DESCRIBE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DESCRIPTION,8.0.4,,,Yes,Yes,Yes
+DES_KEY_FILE,,8.0.3,Yes,Yes,,
+DETERMINISTIC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DIAGNOSTICS,,,Yes,Yes,Yes,Yes
+DIRECTORY,,,Yes,Yes,Yes,Yes
+DISABLE,,,Yes,Yes,Yes,Yes
+DISCARD,,,Yes,Yes,Yes,Yes
+DISK,,,Yes,Yes,Yes,Yes
+DISTINCT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DISTINCTROW,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DIV,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DO,,,Yes,Yes,Yes,Yes
+DOUBLE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DROP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DUAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+DUMPFILE,,,Yes,Yes,Yes,Yes
+DUPLICATE,,,Yes,Yes,Yes,Yes
+DYNAMIC,,,Yes,Yes,Yes,Yes
+EACH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ELSE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ELSEIF,,,Yes (R),Yes (R),Yes (R),Yes (R)
+EMPTY,8.0.4,,,Yes (R),Yes (R),Yes (R)
+ENABLE,,,Yes,Yes,Yes,Yes
+ENCLOSED,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ENCRYPTION,5.7.11,,Yes,Yes,Yes,Yes
+END,,,Yes,Yes,Yes,Yes
+ENDS,,,Yes,Yes,Yes,Yes
+ENFORCED,8.0.16,,,Yes,Yes,Yes
+ENGINE,,,Yes,Yes,Yes,Yes
+ENGINES,,,Yes,Yes,Yes,Yes
+ENGINE_ATTRIBUTE,8.0.21,,,Yes,Yes,Yes
+ENUM,,,Yes,Yes,Yes,Yes
+ERROR,,,Yes,Yes,Yes,Yes
+ERRORS,,,Yes,Yes,Yes,Yes
+ESCAPE,,,Yes,Yes,Yes,Yes
+ESCAPED,,,Yes (R),Yes (R),Yes (R),Yes (R)
+EVENT,,,Yes,Yes,Yes,Yes
+EVENTS,,,Yes,Yes,Yes,Yes
+EVERY,,,Yes,Yes,Yes,Yes
+EXCEPT,,,,Yes (R),Yes (R),Yes (R)
+EXCHANGE,,,Yes,Yes,Yes,Yes
+EXCLUDE,8.0.2,,,Yes,Yes,Yes
+EXECUTE,,,Yes,Yes,Yes,Yes
+EXISTS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+EXIT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+EXPANSION,,,Yes,Yes,Yes,Yes
+EXPIRE,,,Yes,Yes,Yes,Yes
+EXPLAIN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+EXPORT,,,Yes,Yes,Yes,Yes
+EXTENDED,,,Yes,Yes,Yes,Yes
+EXTENT_SIZE,,,Yes,Yes,Yes,Yes
+FACTOR,8.0.27,,,Yes,Yes,Yes
+FAILED_LOGIN_ATTEMPTS,8.0.19,,,Yes,Yes,Yes
+FALSE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FAST,,,Yes,Yes,Yes,Yes
+FAULTS,,,Yes,Yes,Yes,Yes
+FETCH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FIELDS,,,Yes,Yes,Yes,Yes
+FILE,,,Yes,Yes,Yes,Yes
+FILE_BLOCK_SIZE,5.7.6,,Yes,Yes,Yes,Yes
+FILTER,5.7.3,,Yes,Yes,Yes,Yes
+FINISH,8.0.27,,,Yes,Yes,Yes
+FIRST,,,Yes,Yes,Yes,Yes
+FIRST_VALUE,8.0.2,,,Yes (R),Yes (R),Yes (R)
+FIXED,,,Yes,Yes,Yes,Yes
+FLOAT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FLOAT4,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FLOAT8,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FLUSH,,,Yes,Yes,Yes,Yes
+FOLLOWING,8.0.2,,,Yes,Yes,Yes
+FOLLOWS,5.7.2,,Yes,Yes,Yes,Yes
+FOR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FORCE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FOREIGN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FORMAT,,,Yes,Yes,Yes,Yes
+FOUND,,,Yes,Yes,Yes,Yes
+FROM,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FULL,,,Yes,Yes,Yes,Yes
+FULLTEXT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+FUNCTION,,,Yes,Yes (R),Yes (R),Yes (R)
+GENERAL,,,Yes,Yes,Yes,Yes
+GENERATE,8.0.32,,,Yes,Yes,Yes
+GENERATED,5.7.6,,Yes (R),Yes (R),Yes (R),Yes (R)
+GEOMCOLLECTION,8.0.11,,,Yes,Yes,Yes
+GEOMETRY,,,Yes,Yes,Yes,Yes
+GEOMETRYCOLLECTION,,,Yes,Yes,Yes,Yes
+GET,,,Yes (R),Yes (R),Yes (R),Yes (R)
+GET_FORMAT,,,Yes,Yes,Yes,Yes
+GET_MASTER_PUBLIC_KEY,8.0.4,,,Yes,Yes,Yes
+GET_SOURCE_PUBLIC_KEY,8.0.23,,,Yes,Yes,Yes
+GLOBAL,,,Yes,Yes,Yes,Yes
+GRANT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+GRANTS,,,Yes,Yes,Yes,Yes
+GROUP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+GROUPING,8.0.1,,,Yes (R),Yes (R),Yes (R)
+GROUPS,8.0.2,,,Yes (R),Yes (R),Yes (R)
+GROUP_REPLICATION,5.7.6,,Yes,Yes,Yes,Yes
+GTIDS,,,,,,Yes
+GTID_ONLY,8.0.27,,,Yes,Yes,Yes
+HANDLER,,,Yes,Yes,Yes,Yes
+HASH,,,Yes,Yes,Yes,Yes
+HAVING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+HELP,,,Yes,Yes,Yes,Yes
+HIGH_PRIORITY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+HISTOGRAM,8.0.2,,,Yes,Yes,Yes
+HISTORY,8.0.3,,,Yes,Yes,Yes
+HOST,,,Yes,Yes,Yes,Yes
+HOSTS,,,Yes,Yes,Yes,Yes
+HOUR,,,Yes,Yes,Yes,Yes
+HOUR_MICROSECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+HOUR_MINUTE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+HOUR_SECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+IDENTIFIED,,,Yes,Yes,Yes,Yes
+IF,,,Yes (R),Yes (R),Yes (R),Yes (R)
+IGNORE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+IGNORE_SERVER_IDS,,,Yes,Yes,Yes,Yes
+IMPORT,,,Yes,Yes,Yes,Yes
+IN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INACTIVE,8.0.14,,,Yes,Yes,Yes
+INDEX,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INDEXES,,,Yes,Yes,Yes,Yes
+INFILE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INITIAL,8.0.27,,,Yes,Yes,Yes
+INITIAL_SIZE,,,Yes,Yes,Yes,Yes
+INITIATE,8.0.27,,,Yes,Yes,Yes
+INNER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INOUT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INSENSITIVE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INSERT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INSERT_METHOD,,,Yes,Yes,Yes,Yes
+INSTALL,,,Yes,Yes,Yes,Yes
+INSTANCE,5.7.11,,Yes,Yes,Yes,Yes
+INT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INT1,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INT2,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INT3,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INT4,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INT8,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INTEGER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INTERSECT,8.0.31,,,Yes (R),Yes (R),Yes (R)
+INTERVAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INTO,,,Yes (R),Yes (R),Yes (R),Yes (R)
+INVISIBLE,,,,Yes,Yes,Yes
+INVOKER,,,Yes,Yes,Yes,Yes
+IO,,,Yes,Yes,Yes,Yes
+IO_AFTER_GTIDS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+IO_BEFORE_GTIDS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+IO_THREAD,,,Yes,Yes,Yes,Yes
+IPC,,,Yes,Yes,Yes,Yes
+IS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ISOLATION,,,Yes,Yes,Yes,Yes
+ISSUER,,,Yes,Yes,Yes,Yes
+ITERATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+JOIN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+JSON,5.7.8,,Yes,Yes,Yes,Yes
+JSON_TABLE,8.0.4,,,Yes (R),Yes (R),Yes (R)
+JSON_VALUE,8.0.21,,,Yes,Yes,Yes
+KEY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+KEYRING,8.0.24,,,Yes,Yes,Yes
+KEYS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+KEY_BLOCK_SIZE,,,Yes,Yes,Yes,Yes
+KILL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LAG,8.0.2,,,Yes (R),Yes (R),Yes (R)
+LANGUAGE,,,Yes,Yes,Yes,Yes
+LAST,,,Yes,Yes,Yes,Yes
+LAST_VALUE,8.0.2,,,Yes (R),Yes (R),Yes (R)
+LATERAL,8.0.14,,,Yes (R),Yes (R),Yes (R)
+LEAD,8.0.2,,,Yes (R),Yes (R),Yes (R)
+LEADING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LEAVE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LEAVES,,,Yes,Yes,Yes,Yes
+LEFT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LESS,,,Yes,Yes,Yes,Yes
+LEVEL,,,Yes,Yes,Yes,Yes
+LIKE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LIMIT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LINEAR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LINES,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LINESTRING,,,Yes,Yes,Yes,Yes
+LIST,,,Yes,Yes,Yes,Yes
+LOAD,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOCAL,,,Yes,Yes,Yes,Yes
+LOCALTIME,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOCALTIMESTAMP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOCK,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOCKED,8.0.1,,,Yes,Yes,Yes
+LOCKS,,,Yes,Yes,Yes,Yes
+LOG,,,,,,Yes
+LOGFILE,,,Yes,Yes,Yes,Yes
+LOGS,,,Yes,Yes,Yes,Yes
+LONG,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LONGBLOB,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LONGTEXT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOOP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+LOW_PRIORITY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MASTER,,,Yes,Yes,Yes,Yes
+MASTER_AUTO_POSITION,,,Yes,Yes,Yes,Yes
+MASTER_BIND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MASTER_COMPRESSION_ALGORITHMS,8.0.18,,,Yes,Yes,Yes
+MASTER_CONNECT_RETRY,,,Yes,Yes,Yes,Yes
+MASTER_DELAY,,,Yes,Yes,Yes,Yes
+MASTER_HEARTBEAT_PERIOD,,,Yes,Yes,Yes,Yes
+MASTER_HOST,,,Yes,Yes,Yes,Yes
+MASTER_LOG_FILE,,,Yes,Yes,Yes,Yes
+MASTER_LOG_POS,,,Yes,Yes,Yes,Yes
+MASTER_PASSWORD,,,Yes,Yes,Yes,Yes
+MASTER_PORT,,,Yes,Yes,Yes,Yes
+MASTER_PUBLIC_KEY_PATH,8.0.4,,,Yes,Yes,Yes
+MASTER_RETRY_COUNT,,,Yes,Yes,Yes,Yes
+MASTER_SERVER_ID,,8.0.23,Yes,Yes,,
+MASTER_SSL,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CA,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CAPATH,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CERT,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CIPHER,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CRL,,,Yes,Yes,Yes,Yes
+MASTER_SSL_CRLPATH,,,Yes,Yes,Yes,Yes
+MASTER_SSL_KEY,,,Yes,Yes,Yes,Yes
+MASTER_SSL_VERIFY_SERVER_CERT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MASTER_TLS_CIPHERSUITES,8.0.19,,,Yes,Yes,Yes
+MASTER_TLS_VERSION,5.7.10,,Yes,Yes,Yes,Yes
+MASTER_USER,,,Yes,Yes,Yes,Yes
+MASTER_ZSTD_COMPRESSION_LEVEL,8.0.18,,,Yes,Yes,Yes
+MATCH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MAXVALUE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MAX_CONNECTIONS_PER_HOUR,,,Yes,Yes,Yes,Yes
+MAX_QUERIES_PER_HOUR,,,Yes,Yes,Yes,Yes
+MAX_ROWS,,,Yes,Yes,Yes,Yes
+MAX_SIZE,,,Yes,Yes,Yes,Yes
+MAX_STATEMENT_TIME,5.7.4,5.7.8,Yes,,,
+MAX_UPDATES_PER_HOUR,,,Yes,Yes,Yes,Yes
+MAX_USER_CONNECTIONS,,,Yes,Yes,Yes,Yes
+MEDIUM,,,Yes,Yes,Yes,Yes
+MEDIUMBLOB,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MEDIUMINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MEDIUMTEXT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MEMBER,8.0.17,,,Yes,Yes,Yes
+MEMORY,,,Yes,Yes,Yes,Yes
+MERGE,,,Yes,Yes,Yes,Yes
+MESSAGE_TEXT,,,Yes,Yes,Yes,Yes
+MICROSECOND,,,Yes,Yes,Yes,Yes
+MIDDLEINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MIGRATE,,,Yes,Yes,Yes,Yes
+MINUTE,,,Yes,Yes,Yes,Yes
+MINUTE_MICROSECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MINUTE_SECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MIN_ROWS,,,Yes,Yes,Yes,Yes
+MOD,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MODE,,,Yes,Yes,Yes,Yes
+MODIFIES,,,Yes (R),Yes (R),Yes (R),Yes (R)
+MODIFY,,,Yes,Yes,Yes,Yes
+MONTH,,,Yes,Yes,Yes,Yes
+MULTILINESTRING,,,Yes,Yes,Yes,Yes
+MULTIPOINT,,,Yes,Yes,Yes,Yes
+MULTIPOLYGON,,,Yes,Yes,Yes,Yes
+MUTEX,,,Yes,Yes,Yes,Yes
+MYSQL_ERRNO,,,Yes,Yes,Yes,Yes
+NAME,,,Yes,Yes,Yes,Yes
+NAMES,,,Yes,Yes,Yes,Yes
+NATIONAL,,,Yes,Yes,Yes,Yes
+NATURAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+NCHAR,,,Yes,Yes,Yes,Yes
+NDB,,,Yes,Yes,Yes,Yes
+NDBCLUSTER,,,Yes,Yes,Yes,Yes
+NESTED,8.0.4,,,Yes,Yes,Yes
+NETWORK_NAMESPACE,8.0.16,,,Yes,Yes,Yes
+NEVER,5.7.4,,Yes,Yes,Yes,Yes
+NEW,,,Yes,Yes,Yes,Yes
+NEXT,,,Yes,Yes,Yes,Yes
+NO,,,Yes,Yes,Yes,Yes
+NODEGROUP,,,Yes,Yes,Yes,Yes
+NONBLOCKING,,5.7.6,Yes (R),,,
+NONE,,,Yes,Yes,Yes,Yes
+NOT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+NOWAIT,8.0.1,,,Yes,Yes,Yes
+NO_WAIT,,,Yes,Yes,Yes,Yes
+NO_WRITE_TO_BINLOG,,,Yes (R),Yes (R),Yes (R),Yes (R)
+NTH_VALUE,8.0.2,,,Yes (R),Yes (R),Yes (R)
+NTILE,8.0.2,,,Yes (R),Yes (R),Yes (R)
+NULL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+NULLS,8.0.2,,,Yes,Yes,Yes
+NUMBER,,,Yes,Yes,Yes,Yes
+NUMERIC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+NVARCHAR,,,Yes,Yes,Yes,Yes
+OF,8.0.1,,,Yes (R),Yes (R),Yes (R)
+OFF,8.0.20,,,Yes,Yes,Yes
+OFFSET,,,Yes,Yes,Yes,Yes
+OJ,8.0.16,,,Yes,Yes,Yes
+OLD,8.0.14,,,Yes,Yes,Yes
+OLD_PASSWORD,,5.7.5,Yes,,,
+ON,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ONE,,,Yes,Yes,Yes,Yes
+ONLY,,,Yes,Yes,Yes,Yes
+OPEN,,,Yes,Yes,Yes,Yes
+OPTIMIZE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OPTIMIZER_COSTS,5.7.5,,Yes (R),Yes (R),Yes (R),Yes (R)
+OPTION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OPTIONAL,8.0.13,,,Yes,Yes,Yes
+OPTIONALLY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OPTIONS,,,Yes,Yes,Yes,Yes
+OR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ORDER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ORDINALITY,8.0.4,,,Yes,Yes,Yes
+ORGANIZATION,8.0.4,,,Yes,Yes,Yes
+OTHERS,8.0.2,,,Yes,Yes,Yes
+OUT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OUTER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OUTFILE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+OVER,8.0.2,,,Yes (R),Yes (R),Yes (R)
+OWNER,,,Yes,Yes,Yes,Yes
+PACK_KEYS,,,Yes,Yes,Yes,Yes
+PAGE,,,Yes,Yes,Yes,Yes
+PARALLEL,,,,,,Yes (R)
+PARSER,,,Yes,Yes,Yes,Yes
+PARSE_GCOL_EXPR,5.7.6,,Yes,,,
+PARSE_TREE,,,,,Yes,Yes
+PARTIAL,,,Yes,Yes,Yes,Yes
+PARTITION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+PARTITIONING,,,Yes,Yes,Yes,Yes
+PARTITIONS,,,Yes,Yes,Yes,Yes
+PASSWORD,,,Yes,Yes,Yes,Yes
+PASSWORD_LOCK_TIME,8.0.19,,,Yes,Yes,Yes
+PATH,8.0.4,,,Yes,Yes,Yes
+PERCENT_RANK,8.0.2,,,Yes (R),Yes (R),Yes (R)
+PERSIST,,,,Yes,Yes,Yes
+PERSIST_ONLY,8.0.2,,,Yes,Yes,Yes
+PHASE,,,Yes,Yes,Yes,Yes
+PLUGIN,,,Yes,Yes,Yes,Yes
+PLUGINS,,,Yes,Yes,Yes,Yes
+PLUGIN_DIR,,,Yes,Yes,Yes,Yes
+POINT,,,Yes,Yes,Yes,Yes
+POLYGON,,,Yes,Yes,Yes,Yes
+PORT,,,Yes,Yes,Yes,Yes
+PRECEDES,5.7.2,,Yes,Yes,Yes,Yes
+PRECEDING,8.0.2,,,Yes,Yes,Yes
+PRECISION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+PREPARE,,,Yes,Yes,Yes,Yes
+PRESERVE,,,Yes,Yes,Yes,Yes
+PREV,,,Yes,Yes,Yes,Yes
+PRIMARY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+PRIVILEGES,,,Yes,Yes,Yes,Yes
+PRIVILEGE_CHECKS_USER,8.0.18,,,Yes,Yes,Yes
+PROCEDURE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+PROCESS,8.0.11,,,Yes,Yes,Yes
+PROCESSLIST,,,Yes,Yes,Yes,Yes
+PROFILE,,,Yes,Yes,Yes,Yes
+PROFILES,,,Yes,Yes,Yes,Yes
+PROXY,,,Yes,Yes,Yes,Yes
+PURGE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+QUARTER,,,Yes,Yes,Yes,Yes
+QUERY,,,Yes,Yes,Yes,Yes
+QUICK,,,Yes,Yes,Yes,Yes
+RANDOM,8.0.18,,,Yes,Yes,Yes
+RANGE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RANK,8.0.2,,,Yes (R),Yes (R),Yes (R)
+READ,,,Yes (R),Yes (R),Yes (R),Yes (R)
+READS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+READ_ONLY,,,Yes,Yes,Yes,Yes
+READ_WRITE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REBUILD,,,Yes,Yes,Yes,Yes
+RECOVER,,,Yes,Yes,Yes,Yes
+RECURSIVE,8.0.1,,,Yes (R),Yes (R),Yes (R)
+REDOFILE,,8.0.3,Yes,Yes,,
+REDO_BUFFER_SIZE,,,Yes,Yes,Yes,Yes
+REDUNDANT,,,Yes,Yes,Yes,Yes
+REFERENCE,8.0.4,,,Yes,Yes,Yes
+REFERENCES,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REGEXP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REGISTRATION,8.0.27,,,Yes,Yes,Yes
+RELAY,,,Yes,Yes,Yes,Yes
+RELAYLOG,,,Yes,Yes,Yes,Yes
+RELAY_LOG_FILE,,,Yes,Yes,Yes,Yes
+RELAY_LOG_POS,,,Yes,Yes,Yes,Yes
+RELAY_THREAD,,,Yes,Yes,Yes,Yes
+RELEASE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RELOAD,,,Yes,Yes,Yes,Yes
+REMOTE,8.0.3,8.0.14,,Yes,,
+REMOVE,,,Yes,Yes,Yes,Yes
+RENAME,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REORGANIZE,,,Yes,Yes,Yes,Yes
+REPAIR,,,Yes,Yes,Yes,Yes
+REPEAT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REPEATABLE,,,Yes,Yes,Yes,Yes
+REPLACE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REPLICA,8.0.22,,,Yes,Yes,Yes
+REPLICAS,8.0.22,,,Yes,Yes,Yes
+REPLICATE_DO_DB,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_DO_TABLE,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_IGNORE_DB,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_IGNORE_TABLE,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_REWRITE_DB,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_WILD_DO_TABLE,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATE_WILD_IGNORE_TABLE,5.7.3,,Yes,Yes,Yes,Yes
+REPLICATION,,,Yes,Yes,Yes,Yes
+REQUIRE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+REQUIRE_ROW_FORMAT,8.0.19,,,Yes,Yes,Yes
+RESET,,,Yes,Yes,Yes,Yes
+RESIGNAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RESOURCE,8.0.3,,,Yes,Yes,Yes
+RESPECT,8.0.2,,,Yes,Yes,Yes
+RESTART,8.0.4,,,Yes,Yes,Yes
+RESTORE,,,Yes,Yes,Yes,Yes
+RESTRICT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RESUME,,,Yes,Yes,Yes,Yes
+RETAIN,8.0.14,,,Yes,Yes,Yes
+RETURN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RETURNED_SQLSTATE,,,Yes,Yes,Yes,Yes
+RETURNING,8.0.21,,,Yes,Yes,Yes
+RETURNS,,,Yes,Yes,Yes,Yes
+REUSE,8.0.3,,,Yes,Yes,Yes
+REVERSE,,,Yes,Yes,Yes,Yes
+REVOKE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RIGHT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+RLIKE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ROLE,,,,Yes,Yes,Yes
+ROLLBACK,,,Yes,Yes,Yes,Yes
+ROLLUP,,,Yes,Yes,Yes,Yes
+ROTATE,5.7.11,,Yes,Yes,Yes,Yes
+ROUTINE,,,Yes,Yes,Yes,Yes
+ROW,,,Yes,Yes (R),Yes (R),Yes (R)
+ROWS,,,Yes,Yes (R),Yes (R),Yes (R)
+ROW_COUNT,,,Yes,Yes,Yes,Yes
+ROW_FORMAT,,,Yes,Yes,Yes,Yes
+ROW_NUMBER,8.0.2,,,Yes (R),Yes (R),Yes (R)
+RTREE,,,Yes,Yes,Yes,Yes
+S3,,,,,,Yes
+SAVEPOINT,,,Yes,Yes,Yes,Yes
+SCHEDULE,,,Yes,Yes,Yes,Yes
+SCHEMA,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SCHEMAS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SCHEMA_NAME,,,Yes,Yes,Yes,Yes
+SECOND,,,Yes,Yes,Yes,Yes
+SECONDARY,8.0.16,,,Yes,Yes,Yes
+SECONDARY_ENGINE,8.0.13,,,Yes,Yes,Yes
+SECONDARY_ENGINE_ATTRIBUTE,8.0.21,,,Yes,Yes,Yes
+SECONDARY_LOAD,8.0.13,,,Yes,Yes,Yes
+SECONDARY_UNLOAD,8.0.13,,,Yes,Yes,Yes
+SECOND_MICROSECOND,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SECURITY,,,Yes,Yes,Yes,Yes
+SELECT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SENSITIVE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SEPARATOR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SERIAL,,,Yes,Yes,Yes,Yes
+SERIALIZABLE,,,Yes,Yes,Yes,Yes
+SERVER,,,Yes,Yes,Yes,Yes
+SESSION,,,Yes,Yes,Yes,Yes
+SET,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SHARE,,,Yes,Yes,Yes,Yes
+SHOW,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SHUTDOWN,,,Yes,Yes,Yes,Yes
+SIGNAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SIGNED,,,Yes,Yes,Yes,Yes
+SIMPLE,,,Yes,Yes,Yes,Yes
+SKIP,8.0.1,,,Yes,Yes,Yes
+SLAVE,,,Yes,Yes,Yes,Yes
+SLOW,,,Yes,Yes,Yes,Yes
+SMALLINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SNAPSHOT,,,Yes,Yes,Yes,Yes
+SOCKET,,,Yes,Yes,Yes,Yes
+SOME,,,Yes,Yes,Yes,Yes
+SONAME,,,Yes,Yes,Yes,Yes
+SOUNDS,,,Yes,Yes,Yes,Yes
+SOURCE,,,Yes,Yes,Yes,Yes
+SOURCE_AUTO_POSITION,8.0.23,,,Yes,Yes,Yes
+SOURCE_BIND,8.0.23,,,Yes,Yes,Yes
+SOURCE_COMPRESSION_ALGORITHMS,8.0.23,,,Yes,Yes,Yes
+SOURCE_CONNECT_RETRY,8.0.23,,,Yes,Yes,Yes
+SOURCE_DELAY,8.0.23,,,Yes,Yes,Yes
+SOURCE_HEARTBEAT_PERIOD,8.0.23,,,Yes,Yes,Yes
+SOURCE_HOST,8.0.23,,,Yes,Yes,Yes
+SOURCE_LOG_FILE,8.0.23,,,Yes,Yes,Yes
+SOURCE_LOG_POS,8.0.23,,,Yes,Yes,Yes
+SOURCE_PASSWORD,8.0.23,,,Yes,Yes,Yes
+SOURCE_PORT,8.0.23,,,Yes,Yes,Yes
+SOURCE_PUBLIC_KEY_PATH,8.0.23,,,Yes,Yes,Yes
+SOURCE_RETRY_COUNT,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CA,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CAPATH,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CERT,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CIPHER,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CRL,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_CRLPATH,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_KEY,8.0.23,,,Yes,Yes,Yes
+SOURCE_SSL_VERIFY_SERVER_CERT,8.0.23,,,Yes,Yes,Yes
+SOURCE_TLS_CIPHERSUITES,8.0.23,,,Yes,Yes,Yes
+SOURCE_TLS_VERSION,8.0.23,,,Yes,Yes,Yes
+SOURCE_USER,8.0.23,,,Yes,Yes,Yes
+SOURCE_ZSTD_COMPRESSION_LEVEL,8.0.23,,,Yes,Yes,Yes
+SPATIAL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SPECIFIC,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQLEXCEPTION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQLSTATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQLWARNING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQL_AFTER_GTIDS,,,Yes,Yes,Yes,Yes
+SQL_AFTER_MTS_GAPS,,,Yes,Yes,Yes,Yes
+SQL_BEFORE_GTIDS,,,Yes,Yes,Yes,Yes
+SQL_BIG_RESULT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQL_BUFFER_RESULT,,,Yes,Yes,Yes,Yes
+SQL_CACHE,,8.0.3,Yes,Yes,,
+SQL_CALC_FOUND_ROWS,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQL_NO_CACHE,,,Yes,Yes,Yes,Yes
+SQL_SMALL_RESULT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+SQL_THREAD,,,Yes,Yes,Yes,Yes
+SQL_TSI_DAY,,,Yes,Yes,Yes,Yes
+SQL_TSI_HOUR,,,Yes,Yes,Yes,Yes
+SQL_TSI_MINUTE,,,Yes,Yes,Yes,Yes
+SQL_TSI_MONTH,,,Yes,Yes,Yes,Yes
+SQL_TSI_QUARTER,,,Yes,Yes,Yes,Yes
+SQL_TSI_SECOND,,,Yes,Yes,Yes,Yes
+SQL_TSI_WEEK,,,Yes,Yes,Yes,Yes
+SQL_TSI_YEAR,,,Yes,Yes,Yes,Yes
+SRID,8.0.3,,,Yes,Yes,Yes
+SSL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+STACKED,,,Yes,Yes,Yes,Yes
+START,,,Yes,Yes,Yes,Yes
+STARTING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+STARTS,,,Yes,Yes,Yes,Yes
+STATS_AUTO_RECALC,,,Yes,Yes,Yes,Yes
+STATS_PERSISTENT,,,Yes,Yes,Yes,Yes
+STATS_SAMPLE_PAGES,,,Yes,Yes,Yes,Yes
+STATUS,,,Yes,Yes,Yes,Yes
+STOP,,,Yes,Yes,Yes,Yes
+STORAGE,,,Yes,Yes,Yes,Yes
+STORED,5.7.6,,Yes (R),Yes (R),Yes (R),Yes (R)
+STRAIGHT_JOIN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+STREAM,8.0.20,,,Yes,Yes,Yes
+STRING,,,Yes,Yes,Yes,Yes
+SUBCLASS_ORIGIN,,,Yes,Yes,Yes,Yes
+SUBJECT,,,Yes,Yes,Yes,Yes
+SUBPARTITION,,,Yes,Yes,Yes,Yes
+SUBPARTITIONS,,,Yes,Yes,Yes,Yes
+SUPER,,,Yes,Yes,Yes,Yes
+SUSPEND,,,Yes,Yes,Yes,Yes
+SWAPS,,,Yes,Yes,Yes,Yes
+SWITCHES,,,Yes,Yes,Yes,Yes
+SYSTEM,8.0.3,,,Yes (R),Yes (R),Yes (R)
+TABLE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TABLES,,,Yes,Yes,Yes,Yes
+TABLESPACE,,,Yes,Yes,Yes,Yes
+TABLE_CHECKSUM,,,Yes,Yes,Yes,Yes
+TABLE_NAME,,,Yes,Yes,Yes,Yes
+TEMPORARY,,,Yes,Yes,Yes,Yes
+TEMPTABLE,,,Yes,Yes,Yes,Yes
+TERMINATED,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TEXT,,,Yes,Yes,Yes,Yes
+THAN,,,Yes,Yes,Yes,Yes
+THEN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+THREAD_PRIORITY,8.0.3,,,Yes,Yes,Yes
+TIES,8.0.2,,,Yes,Yes,Yes
+TIME,,,Yes,Yes,Yes,Yes
+TIMESTAMP,,,Yes,Yes,Yes,Yes
+TIMESTAMPADD,,,Yes,Yes,Yes,Yes
+TIMESTAMPDIFF,,,Yes,Yes,Yes,Yes
+TINYBLOB,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TINYINT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TINYTEXT,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TLS,8.0.21,,,Yes,Yes,Yes
+TO,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TRAILING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TRANSACTION,,,Yes,Yes,Yes,Yes
+TRIGGER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TRIGGERS,,,Yes,Yes,Yes,Yes
+TRUE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+TRUNCATE,,,Yes,Yes,Yes,Yes
+TYPE,,,Yes,Yes,Yes,Yes
+TYPES,,,Yes,Yes,Yes,Yes
+UNBOUNDED,8.0.2,,,Yes,Yes,Yes
+UNCOMMITTED,,,Yes,Yes,Yes,Yes
+UNDEFINED,,,Yes,Yes,Yes,Yes
+UNDO,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UNDOFILE,,,Yes,Yes,Yes,Yes
+UNDO_BUFFER_SIZE,,,Yes,Yes,Yes,Yes
+UNICODE,,,Yes,Yes,Yes,Yes
+UNINSTALL,,,Yes,Yes,Yes,Yes
+UNION,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UNIQUE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UNKNOWN,,,Yes,Yes,Yes,Yes
+UNLOCK,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UNREGISTER,8.0.27,,,Yes,Yes,Yes
+UNSIGNED,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UNTIL,,,Yes,Yes,Yes,Yes
+UPDATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UPGRADE,,,Yes,Yes,Yes,Yes
+URL,8.0.32,,,Yes,Yes,Yes
+USAGE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+USE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+USER,,,Yes,Yes,Yes,Yes
+USER_RESOURCES,,,Yes,Yes,Yes,Yes
+USE_FRM,,,Yes,Yes,Yes,Yes
+USING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UTC_DATE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UTC_TIME,,,Yes (R),Yes (R),Yes (R),Yes (R)
+UTC_TIMESTAMP,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VALIDATION,5.7.5,,Yes,Yes,Yes,Yes
+VALUE,,,Yes,Yes,Yes,Yes
+VALUES,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VARBINARY,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VARCHAR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VARCHARACTER,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VARIABLES,,,Yes,Yes,Yes,Yes
+VARYING,,,Yes (R),Yes (R),Yes (R),Yes (R)
+VCPU,8.0.3,,,Yes,Yes,Yes
+VIEW,,,Yes,Yes,Yes,Yes
+VIRTUAL,5.7.6,,Yes (R),Yes (R),Yes (R),Yes (R)
+VISIBLE,,,,Yes,Yes,Yes
+WAIT,,,Yes,Yes,Yes,Yes
+WARNINGS,,,Yes,Yes,Yes,Yes
+WEEK,,,Yes,Yes,Yes,Yes
+WEIGHT_STRING,,,Yes,Yes,Yes,Yes
+WHEN,,,Yes (R),Yes (R),Yes (R),Yes (R)
+WHERE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+WHILE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+WINDOW,8.0.2,,,Yes (R),Yes (R),Yes (R)
+WITH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+WITHOUT,5.7.5,,Yes,Yes,Yes,Yes
+WORK,,,Yes,Yes,Yes,Yes
+WRAPPER,,,Yes,Yes,Yes,Yes
+WRITE,,,Yes (R),Yes (R),Yes (R),Yes (R)
+X509,,,Yes,Yes,Yes,Yes
+XA,,,Yes,Yes,Yes,Yes
+XID,5.7.5,,Yes,Yes,Yes,Yes
+XML,,,Yes,Yes,Yes,Yes
+XOR,,,Yes (R),Yes (R),Yes (R),Yes (R)
+YEAR,,,Yes,Yes,Yes,Yes
+YEAR_MONTH,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ZEROFILL,,,Yes (R),Yes (R),Yes (R),Yes (R)
+ZONE,8.0.22,,,Yes,Yes,Yes
