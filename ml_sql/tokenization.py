@@ -1,15 +1,20 @@
 import re
 import pandas as pd
+from binary_sub import binary_sub
 
 class Tokenizer:
-    def __init__(self, str = ""):
-        self.str = ' ' + str
+    def __init__(self):
         self.keywords = []
         self.functions = []
         self.keywords_path = "./resource/keywords.csv"
         self.functions_path = "./resource/functions.csv"
         self.spec_char = ["NEQ", "AND", "OR", "CMTST", "CMTEND", "TLDE", "EXCLM", "ATR", "HASH", "DLLR", "PRCNT", "XOR", "BITAND", "BITOR", "STAR", "MINUS", "PLUS", "EQ", "LPRN", "RPRN", "LCBR", "RCBR", "LSQBR", "RSQBR", "BSLSH", "CLN", "SMCLN", "DQUT", "SQUT", "LT", "GT", "CMMA", "DOT", "QSTN", "SLSH"]
         self.reserved_tokens = ["CHR", "STR", "HEX", "DEC", "INT", "IPADDR"]
+        self._read_keywords()
+        self._read_functions()
+
+    def import_query(self, str=""):
+        self.str = ' ' + str + ' '
 
     def get_str(self):
         return self.str
@@ -18,6 +23,7 @@ class Tokenizer:
         kw = pd.read_csv(self.keywords_path)
         self.keywords = kw['Name']
         self.keywords[412] = "NULL"
+        self.keywords = self.keywords.sort_index().to_list()
     
     def get_keywords(self):
         return self.keywords
@@ -27,6 +33,7 @@ class Tokenizer:
         self.functions = fc['Name']
         for i in range(0,len(self.functions)):
             self.functions[i] = self.functions[i][:-2].upper()
+        self.functions = self.functions.sort_index().to_list()
     
     def get_functions(self):
         return self.functions
@@ -115,13 +122,11 @@ class Tokenizer:
 
     #Substitute SQL keywords, and reserved words
     def _sub_keywords(self):
-        for word in self.keywords:
-            self.str = re.sub('\s+'+word+'\s+', ' ' + word + ' ', self.str, flags = re.IGNORECASE)
+        self.str = binary_sub(self.str, self.keywords, "keywords")
 
     #Substitute SQL keywords, and reserved words
     def _sub_functions(self):
-        for func in self.functions:
-            self.str = re.sub('\s+'+func+'\s+', ' F_' + func + ' ', self.str, flags = re.IGNORECASE)
+        self.str = binary_sub(self.str, self.functions, "functions")
 
     #Substitute IPv4 and IPv6 addresses
     def _sub_ip(self):
@@ -146,7 +151,7 @@ class Tokenizer:
         str = self.str
         str = str.split()
         for i in range(0, len(str)):
-            if(not ((str[i] in self.reserved_tokens) or (str[i] in self.spec_char) or (str[i] in self.keywords.tolist()) or (str[i][2:] in self.functions.tolist()))):
+            if(not ((str[i] in self.reserved_tokens) or (str[i] in self.spec_char) or (str[i] in self.keywords) or (str[i][2:] in self.functions))):
                 if(len(str[i]) == 1):
                     str[i] = "CHR"
                 else:
@@ -167,8 +172,6 @@ class Tokenizer:
 
     #Exercise all substitution in order
     def tokenization(self):
-        self._read_keywords()
-        self._read_functions()
         self._del_white_space_char()
         self._del_empty_comments()
         self._remove_parentheses()
@@ -185,11 +188,9 @@ class Tokenizer:
 
     #Return a list of all tokens
     def get_token_list(self):
-        self._read_keywords()
-        self._read_functions()
-        tmp_func = self.get_functions()
+        tmp_func = self.get_functions().copy()
         for i in range(len(tmp_func)):
             tmp_func[i] = ("F_" + tmp_func[i]).upper()
-        token_list = self.reserved_tokens + self.spec_char + self.keywords.to_list() + tmp_func.to_list()
+        token_list = self.reserved_tokens + self.spec_char + self.keywords + tmp_func
         token_list.sort()
         return token_list

@@ -2,6 +2,7 @@ import numpy as np
 from typing import Literal
 from tokenization import Tokenizer
 from token_graph import TokenGragh
+from tqdm import trange
 
 #transfer all dataset by sqliGoT
 def sqliGoT(
@@ -12,7 +13,8 @@ def sqliGoT(
         degree: Literal['in','out'] = 'out'
     ):
     feature_generator = TokenGragh(windows_size, type, mode, degree)
-    token_list = Tokenizer().get_token_list()
+    tokenized = Tokenizer()
+    token_list = tokenized.get_token_list()
     feature_generator.import_token_list(token_list)
     feature_generator.build_index()
 
@@ -20,8 +22,8 @@ def sqliGoT(
     width = len(token_list)
     processed = np.zeros((height,width), dtype = np.int32)
     
-    for i in range(height):
-        tokenized = Tokenizer(X[i])
+    for i in trange(height):
+        tokenized.import_query(X[i])
         tokenized.tokenization()
         feature_generator.import_token_line(tokenized.get_str())
         feature_generator.init_matrix()
