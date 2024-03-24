@@ -151,7 +151,7 @@ class Tokenizer:
         str = self.str
         str = str.split()
         for i in range(0, len(str)):
-            if(not ((str[i] in self.reserved_tokens) or (str[i] in self.spec_char) or (str[i] in self.keywords) or (str[i][2:] in self.functions))):
+            if(not ((str[i] in self.reserved_tokens) or (str[i] in self.spec_char) or (str[i] in self.keywords) or (str[i][2:] in self.functions) and (str[i][:2] == 'F_'))):
                 if(len(str[i]) == 1):
                     str[i] = "CHR"
                 else:
